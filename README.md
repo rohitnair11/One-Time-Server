@@ -4,7 +4,7 @@ This is a simple REST server that generates an endpoint which can only be access
 ### Running Instructions
 Clone this repository and perform ```npm install``` to install all the required packages.  
 
-Now execute the ```index.js``` file using the command ```node index.js```  
+Now start the node server using the command ```node index.js```  
 
 Send a POST request with some data to the server.  
 ```$ curl --request POST -H "Content-Type: application/json" --data '{"coffee":1,"milk":1,"sugar":1,"chocolate":1}' http://localhost:3000/share```  
